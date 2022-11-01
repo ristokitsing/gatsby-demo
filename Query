@@ -1,0 +1,12 @@
+query {
+  allWpPost {
+    edges {
+      node {
+        id
+        title
+        content
+        date
+      }
+    }
+  }
+}
